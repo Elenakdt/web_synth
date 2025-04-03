@@ -62,4 +62,4 @@ For Docker-Compose: [https://docs.docker.com/compose/install/](https://docs.dock
 
 ## Contact
 
-For inquiries, please contact: mhd.jouned@meduniwien.ac.at
+For inquiries, please contact: adnan.jouned@meduniwien.ac.at
