@@ -18,6 +18,8 @@ services:
       - synthea
     volumes:
       - ./synthea:/synthea
+      #isolates gradle cache to prevent gradle lock
+      - synthea_gradle_cache:/synthea/.gradle
     networks:
       - syntheanetwork
 
@@ -64,6 +66,8 @@ services:
 
 volumes:
   db_data:
+  #separated volume for backend synthea gradle cache
+  synthea_gradle_cache:
 
 networks:
   syntheanetwork:
